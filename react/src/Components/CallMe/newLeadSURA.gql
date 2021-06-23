@@ -1,0 +1,15 @@
+mutation($name: String, $email:String, $department:String, $typeTel:String, $phone:String, $sponsor:String, $seguro:String){
+  newLeadSURA(
+    leadSURA:{
+      name:$name,
+      email:$email,
+      department:$department,
+      typeTel:$typeTel,
+      phone:$phone,
+      sponsor:$sponsor,
+      seguro:$seguro
+    }
+  ){
+    response
+  }
+}

@@ -1,0 +1,11 @@
+query {
+  listContentWithSchema(
+    blockId: "celsia.seguros@0.x:seguros-wrapper",
+    template: "*",
+    treePath:"*/$around_seguros-wrapper"
+  ) {
+    content {
+      contentJSON
+    }
+  }
+}

@@ -1,0 +1,147 @@
+.segurosChildren {
+    width: 10%;
+}
+
+.containerDetailSeguro{
+    margin-top:20px;
+    width:838px;
+    height:420px;
+    background:#FCFCFC 0% 0% no-repeat padding-box;
+    border-radius: 10px 10px 0px 0px;
+    opacity: 1;
+    padding-top:5px;
+    border-bottom: 12px solid #D5752D;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top:60px; 
+}
+
+.tabHeader{
+    width:500px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.tabHeaderItem{
+    color:white;
+    padding:0 10px;
+    height:27px;
+    border-radius:5px;
+    align-items:center;
+    display:flex;
+    cursor:pointer;
+    font-size:14px;
+}
+
+.iconDescriptionMobileWhite{
+    width:14px;
+    height:14px;
+    margin-right:7px;
+}
+
+.iconBenefitMobileWhite{
+    width:14px;
+    height:14px;
+    margin-right:7px;
+}
+
+.iconRequirementMobileWhite{
+    width:14px;
+    height:14px;
+    margin-right:7px;
+}
+
+.iconDescriptionMobileOrange{
+    width:14px;
+    height:16px;
+    margin-right:7px;
+}
+
+.iconBenefitMobileOrange{
+    width:14px;
+    height:16px;
+    margin-right:7px;
+}
+
+.iconRequirementMobileOrange{
+    width:14px;
+    height:16px;
+    margin-right:7px;
+}
+
+.containerTabs{
+    display:flex;
+}
+
+.contentDetailSeguro{
+    width:508px;
+    height:300.23px;
+}
+
+.containerDescription{
+    margin-top:40px;
+    font-size:16px;
+    color:#000000;
+    text-align:left;
+    width:410px;
+    height:72px;
+    margin-left:45px;
+    text-align:justify;
+}
+
+.containerImgdetailSeguro{
+    width:303px;
+    margin-left:50px;
+}
+
+.containerName{
+    margin-top:75px;
+    color:#CF7039;
+    font-size:25px;
+    font-weight:400;
+    margin-left:45px;
+}
+
+.containerPrice{
+    margin-top:17px;
+    display:flex;
+    margin-left:45px;
+}
+
+.SeguroPrice{
+    color:#CF7039;
+    font-size:25px;
+}
+
+.frecuenciaPago{
+    color:#CF7039;
+    font-size:12px;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.imgSeguro{
+    margin-top:10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 223px;
+    height: 300.23px;
+    background-position: center;
+    border-radius:15px;
+}
+
+.infoRequirement{
+    display:flex;
+    flex-direction: column;  
+}
+
+.imgTableRequirement{
+    margin-top:50px;
+    margin-left:50px;
+    width:400px;
+    height:100px;   
+}
+
+
+

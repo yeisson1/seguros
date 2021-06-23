@@ -1,0 +1,41 @@
+.containerForm{
+    display:flex;
+}
+
+.titleCard{
+    font-size:30px;
+    text-align:center;
+}
+
+.numberInfo{
+    font-size:50px;
+    text-align:center;
+
+}
+
+.seguroInfo{
+    font-size:20px;
+}
+
+.itemName{
+    width:50%;
+    font-size:20px;
+    text-align:center;
+
+}
+
+.itemCount{
+    font-size:30px;
+    width:50%;
+    font-weight:600;
+    text-align:center;
+
+}
+
+.titleItemProduct{
+    width:50%;
+    font-size:23px;
+    text-align:center;
+    font-weight:700;
+}
+

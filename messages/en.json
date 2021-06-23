@@ -1,0 +1,10 @@
+  {
+    "store/welcome": "Welcome to React",
+    "store/getstarted": "To get started, edit",
+    "store/saveTo": "and save to reload.",
+    "admin.navigation.label-group": "Seguros",
+    "admin.navigation.search.kws": "Analitica, seguros",
+    "admin.navigation.label-item":"Analítica",
+    "admin.navigation.details.kws":"Analitica, seguros, app",
+    "react.hello-world.title":"Analítica de seguros"
+  }

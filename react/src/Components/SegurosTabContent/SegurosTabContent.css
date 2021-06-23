@@ -1,0 +1,56 @@
+.segurosSliderContainer{
+    width:100%;
+    overflow: hidden;
+}
+
+.segurosSliderSubContainer{
+    display:flex;
+    transition: all ease .5s;
+}
+
+.segurosTabContent{
+    
+    position:relative;
+    max-width:1000px;
+    margin-top:84px;
+}
+
+.segurosSliderItem{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.segurosArrowRight,
+.segurosArrowLeft{
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow: 0px 3px 6px #00000029;
+    color:#707070;
+    cursor:pointer;
+    position:absolute;
+    background-color:#ffffff;  
+}
+
+.segurosArrowRight{
+    right:0;
+    top: calc(50% - 14px); 
+    margin-left:15px;
+}
+
+.segurosArrowLeft{
+    left:0;
+    top: calc(50% - 14px);
+}
+
+.titleTabContent{
+    font-size:20px;
+    color:#CF7039;
+    display:flex;
+    justify-content: center;
+    margin-bottom:24px;
+}

@@ -1,0 +1,13 @@
+{
+    "section":"other",
+    "titleId":"admin.navigation.label-group",
+    "subSection":"",
+    "searchKeyWordsHelpers":"admin.navigation.search.kws",
+    "subSectionItems":[
+        {
+            "labelId":"admin.navigation.label-item",
+            "path":"/admin/analitica-seguros",
+            "searchKeyWordsHelpers":"admin.navigation.details.kws"
+        }
+    ]
+}

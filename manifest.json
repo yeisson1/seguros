@@ -1,0 +1,32 @@
+{
+  "name": "seguros",
+  "vendor": "celsia",
+  "version": "0.1.0",
+  "vtex-version": "0.0.0",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x",
+    "messages": "1.x",
+    "admin": "0.x"
+  },
+  "title": "Hello React",
+  "description": "App for creating a minimal React setup for VTEX IO",
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {
+    "vtex.store": "2.x",
+    "vtex.store-icons": "0.x",
+    "vtex.flex-layout": "0.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.order-items": "0.x",
+    "vtex.product-context": "0.x",
+    "vtex.pixel-manager": "1.x",
+    "vtex.styleguide": "9.x",
+    "vtex.modal-layout": "0.x",
+    "vtex.store-graphql": "2.x",
+    "celsia.seguros-graphql": "0.x",
+    "vtex.pages-graphql": "2.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

@@ -1,0 +1,10 @@
+query($acronym: String, $fields:[String], $pageSize: Int, $where: String){
+  documents(acronym:$acronym, fields:$fields, pageSize:$pageSize, where:$where){
+    
+    fields{
+      key,
+      value
+    }
+
+  }
+}

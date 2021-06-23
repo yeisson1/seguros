@@ -1,0 +1,7 @@
+/** 
+    CSS MODULE: SE IMPORTA COMO UN COMPONENTE Y SE USA COMO UN OBJETO
+    import HelloWorld from './hello-world';
+
+    className={HelloWorldStyle.init}
+*/
+.init { }

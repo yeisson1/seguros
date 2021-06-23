@@ -1,0 +1,47 @@
+{
+  "hello-react": {
+    "component": "HelloWorld"
+  },
+  "seguros-wrapper": {
+    "component": "SegurosWrapper"
+  },
+  "seguros-wrapper.breadcrumb":{
+    "component":"Breadcrumb"
+  },
+  "seguros-wrapper.logo":{
+    "component":"Logo"
+  },
+  "seguros-wrapper.call-me":{
+    "component":"CallMe"
+  },
+  "seguros-wrapper.call-me-mobile":{
+    "component":"CallMeMobile"
+  },
+  
+  "seguros-wrapper.seguros-detail": {
+    "component": "SegurosTabContent"
+  },
+  "seguros-wrapper.seguros-tab-content": {
+    "component": "SegurosTabContent",
+    "composition":"children"
+  },
+  "seguros-wrapper.seguros-description": {
+    "component": "SegurosDescription"
+  },
+  "seguros-wrapper.seguros-tab-item": {
+    "component": "SegurosTabItem"
+  },
+  "seguros-wrapper.seguros-item-mobile": {
+    "component": "SegurosItemMobile"
+  },
+  "seguros-wrapper.form-contact": {
+    "component": "ContactForm"
+  },
+  "modal-informative":{
+    "component":"ModalInformative"
+  },
+  "analitics-seguros":{
+    "component":"AnaliticSegurosAdmin"
+  }
+ 
+}

@@ -1,0 +1,15 @@
+mutation($name:String!, $phone:String!, $email:String!, $department: String!, $seguro:String!, $sponsor:String!, $typeTel: String!, $dateInsertion: Date!){
+  newLead(lead:{
+    name:$name,
+    phone:$phone,
+    email:$email,
+    department: $department,
+    seguro:$seguro,
+    sponsor:$sponsor,
+    typeTel:$typeTel,
+    dateInsertion:$dateInsertion
+  }){
+    id
+  }
+    
+}
